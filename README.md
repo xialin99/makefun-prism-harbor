@@ -1,23 +1,34 @@
 # Prism Harbor
 
-An original, offline lighthouse-defense game. Survive five waves of drifting star raiders while protecting the harbor light.
+[中文](#中文) · [English](#english)
 
-## Play
+![Preview](screenshots/01-cover.jpg)
 
-Serve the `game/` directory with any static HTTP server and open its index page in desktop Chrome. There is no build step, remote asset, login or server-side dependency.
+## 中文
 
-- Aim with the mouse and hold the primary button to fire.
-- Select jade, amber or violet with 1, 2 or 3. A matching beam deals double damage.
-- Shoot drifting shards to restore hull and charge the pulse.
-- Press Space when the pulse reaches 100%; press P to pause.
-- Complete all five waves, or restart after the lighthouse is lost.
+原创离线灯塔防守游戏，玩家抵御五波漂流的星际袭击者。
 
-## Packaging
+### 本地运行
 
-Node.js 22.18 or later runs `main.ts`. Set MAKEFUN_OUTPUT_DIR to the intended output directory. The program validates that three or four real browser screenshots exist, copies the static game and screenshots, then builds the competition dossier using the unmodified vendored helper.
+运行 `node serve.ts`，用桌面 Chrome 打开 `http://localhost:8080`，按照画面中的控制说明游玩。
 
-## Verification
+## English
 
-The independent local game page rendered in the browser, displayed a five-wave victory with 86% hull, responded to the amber beam key, and returned to its title screen after reloading. Three unedited browser captures are included: defense, victory and title. Each is 1280 by 800 pixels and below the 256 KiB per-image limit. This is observed browser behavior, not a guarantee of a competition result.
+An original offline lighthouse-defense game. Protect the harbor light through five waves of star raiders.
 
-Source, procedural sound and names are original. No prize has been received. MIT licensed; the vendored helper retains its own notice. Credentials, wallet private keys and transcript archives are not repository content.
+### Run locally
+
+Run `node serve.ts`, open `http://localhost:8080` in desktop Chrome, and follow the on-screen controls.
+
+[补充技术说明 / Additional technical notes](README.details.md)
+
+[make.fun 赛事 / Original bounty](https://make.fun/bounty/best-game-01)
+
+## 许可证 / License
+
+MIT. See [LICENSE](LICENSE).
+
+赛事模板组件的授权见 [LICENSE-makefun.txt](LICENSE-makefun.txt)。
+
+Kit components are covered by [LICENSE-makefun.txt](LICENSE-makefun.txt).
+
