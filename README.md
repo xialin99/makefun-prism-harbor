@@ -1,5 +1,7 @@
 # Prism Harbor
 
+[在线使用 / Open in browser](https://xialin99.github.io/makefun-prism-harbor/)
+
 [中文](#中文) · [English](#english)
 
 ![Preview](screenshots/01-cover.jpg)
