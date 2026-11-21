@@ -1,4 +1,4 @@
-# Prism Harbor
+# 棱镜港 / Prism Harbor
 
 [在线使用 / Open in browser](https://xialin99.github.io/makefun-prism-harbor/)
 
