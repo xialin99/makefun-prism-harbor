@@ -14,6 +14,10 @@
 
 运行 `node serve.ts`，用桌面 Chrome 打开 `http://localhost:8080`，按照画面中的控制说明游玩。
 
+页面默认显示简体中文，可以在界面选择 English。
+
+命令行提示默认显示中文。设置 `MAKEFUN_UI_LANG=en` 可显示英文。
+
 ## English
 
 An original offline lighthouse-defense game. Protect the harbor light through five waves of star raiders.
@@ -22,7 +26,11 @@ An original offline lighthouse-defense game. Protect the harbor light through fi
 
 Run `node serve.ts`, open `http://localhost:8080` in desktop Chrome, and follow the on-screen controls.
 
-[补充技术说明 / Additional technical notes](README.details.md)
+The interface opens in Simplified Chinese. Use the language menu to switch to English.
+
+Set `MAKEFUN_UI_LANG=en` for English terminal messages.
+
+[中文技术说明](README.details.zh.md) · [English technical notes](README.details.md)
 
 [make.fun 赛事 / Original bounty](https://make.fun/bounty/best-game-01)
 
